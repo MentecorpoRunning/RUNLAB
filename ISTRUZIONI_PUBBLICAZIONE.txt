@@ -1,0 +1,20 @@
+RUNLAB PWA — PUBBLICAZIONE SU GITHUB PAGES
+
+Questa cartella contiene la versione installabile di RunLab. Per attivare installazione e uso offline va pubblicata su un indirizzo HTTPS (GitHub Pages è gratuito per repository pubblici).
+
+1) Apri https://github.com e accedi.
+2) Crea un nuovo repository, per esempio: runlab
+   - Per la procedura più semplice, imposta il repository come Public.
+   - Non aggiungere README o altri file iniziali.
+3) Carica TUTTI i file e le cartelle contenuti in questa cartella nella radice del repository: index.html, manifest.webmanifest, sw.js, esp-logo.png, icons/ e questo file istruzioni.
+4) Nel repository vai su Settings > Pages.
+5) In “Build and deployment” scegli “Deploy from a branch”, branch “main”, cartella “/ (root)”, quindi Save.
+6) Attendi il completamento della pubblicazione. GitHub mostrerà un indirizzo simile a https://TUO-UTENTE.github.io/runlab/.
+7) Apri quell'indirizzo in Chrome sul telefono Android. Dal menu ⋮ scegli “Installa app” oppure “Aggiungi a schermata Home”. La voce può variare in base alla versione di Chrome.
+8) Avvia RunLab dall'icona. Aprilo almeno una volta online prima di provare l'uso offline.
+
+NOTE IMPORTANTI
+- La pubblicazione rende accessibile la pagina web a chi conosce o trova l'indirizzo. Il codice dell'app sarà pubblico se il repository è pubblico, ma i dati degli atleti non vengono caricati su GitHub: restano nel localStorage del browser/dispositivo.
+- I dati locali non si sincronizzano tra dispositivi e possono andare persi cancellando i dati del browser. Esporta periodicamente l'archivio RunLab come backup.
+- Se si cancella o si sostituisce l'app, l'installazione può conservare una vecchia cache per qualche istante. Chiudi e riapri l'app; se necessario aggiorna la pagina mentre sei online.
+- Non inserire dati identificativi degli atleti in repository, file pubblici o URL.
