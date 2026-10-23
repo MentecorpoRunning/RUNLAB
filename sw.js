@@ -1,4 +1,4 @@
-const CACHE_NAME = 'runlab-pwa-v1';
+const CACHE_NAME = 'runlab-pwa-v2';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-512-maskable.png', './esp-logo.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
